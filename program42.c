@@ -4,7 +4,7 @@ int main()
 {
 char a[10],b[10];
 int l,m;
-printf("\nenter two strings:);
+printf("\nenter two strings:");
 scanf("%s%s",a,b);
 l=strlen(a);
 m=strlen(b);

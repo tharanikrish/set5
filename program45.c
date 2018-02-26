@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int a,i,count=0;
+int a;
 printf("\nenter the number");
 scanf("%d",&a);
-for(i=0;i<a;i++)
+if(a<=10000)
 {
-count++;
+a++;
 }
-printf("\n%d",count);
+printf("\n%d",a);
 return 0;
 }

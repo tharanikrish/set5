@@ -8,5 +8,6 @@ while(a!=0)
 {
 ++count;
 printf("\n%d",count);
+}
 return 0;
 }

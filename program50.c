@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int n,pow=2,a=1;
+int n,pow=2,a=1,i;
 printf("\nenter the number");
 scanf("%d",&n);
 for(i=0;i<n;i++)
@@ -16,6 +16,5 @@ break;
 if(a!=n)
 {
 printf("\n%d is not a power of 2",n);
-break;
 }
 }

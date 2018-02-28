@@ -1,13 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int a;
+int a,count=0;
 printf("\nenter the number");
 scanf("%d",&a);
-if(a<=10000)
+while(a!=0)
 {
-a++;
-}
-printf("\n%d",a);
+++count;
+printf("\n%d",count);
 return 0;
 }
